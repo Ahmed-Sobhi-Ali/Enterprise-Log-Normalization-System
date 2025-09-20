@@ -47,7 +47,7 @@ graph TB
 
 ```bash
 # Run basic normalization
-python production_normalizer.py input_logs.json output_logs.json final_mapping.json --schema final_schema.json --stats
+python poc_normalizer.py logs_samples.json output_logs.json final_mapping.json --schema final_schema.json --stats
 ```
 
 ```python
